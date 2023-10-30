@@ -107,7 +107,7 @@ public class GilletteTests {
 
     @After
     public void tearDown() {
-        driver.quit();
+        // driver.quit();
         reporter.flush();
     }
 }
